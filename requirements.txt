@@ -1,0 +1,8 @@
+networkx==3.5
+numpy==2.3.0
+pandas==2.3.0
+pgmpy==1.0.0
+plotly==6.1.2
+streamlit==1.45.1
+streamlit_agraph==0.0.45
+torch==2.7.1
