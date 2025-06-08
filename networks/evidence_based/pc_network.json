@@ -1,0 +1,404 @@
+{
+  "nodes": [
+    {
+      "id": "PhysHlth",
+      "title": "PhysHlth",
+      "label": "PhysHlth",
+      "shape": "box",
+      "size": 35,
+      "color": null,
+      "style": "rounded"
+    },
+    {
+      "id": "DiffWalk",
+      "title": "DiffWalk",
+      "label": "DiffWalk",
+      "shape": "box",
+      "size": 35,
+      "color": null,
+      "style": "rounded"
+    },
+    {
+      "id": "AnyHealthcare",
+      "title": "AnyHealthcare",
+      "label": "AnyHealthcare",
+      "shape": "box",
+      "size": 35,
+      "color": null,
+      "style": "rounded"
+    },
+    {
+      "id": "NoDocbcCost",
+      "title": "NoDocbcCost",
+      "label": "NoDocbcCost",
+      "shape": "box",
+      "size": 35,
+      "color": null,
+      "style": "rounded"
+    },
+    {
+      "id": "GenHlth",
+      "title": "GenHlth",
+      "label": "GenHlth",
+      "shape": "box",
+      "size": 35,
+      "color": null,
+      "style": "rounded"
+    },
+    {
+      "id": "Diabetes_binary",
+      "title": "Diabetes_binary",
+      "label": "Diabetes_binary",
+      "shape": "box",
+      "size": 35,
+      "color": null,
+      "style": "rounded"
+    },
+    {
+      "id": "Age",
+      "title": "Age",
+      "label": "Age",
+      "shape": "box",
+      "size": 35,
+      "color": null,
+      "style": "rounded"
+    },
+    {
+      "id": "Stroke",
+      "title": "Stroke",
+      "label": "Stroke",
+      "shape": "box",
+      "size": 35,
+      "color": null,
+      "style": "rounded"
+    },
+    {
+      "id": "HeartDiseaseorAttack",
+      "title": "HeartDiseaseorAttack",
+      "label": "HeartDiseaseorAttack",
+      "shape": "box",
+      "size": 35,
+      "color": null,
+      "style": "rounded"
+    },
+    {
+      "id": "Education",
+      "title": "Education",
+      "label": "Education",
+      "shape": "box",
+      "size": 35,
+      "color": null,
+      "style": "rounded"
+    },
+    {
+      "id": "Smoker",
+      "title": "Smoker",
+      "label": "Smoker",
+      "shape": "box",
+      "size": 35,
+      "color": null,
+      "style": "rounded"
+    },
+    {
+      "id": "Income",
+      "title": "Income",
+      "label": "Income",
+      "shape": "box",
+      "size": 35,
+      "color": null,
+      "style": "rounded"
+    },
+    {
+      "id": "PhysActivity",
+      "title": "PhysActivity",
+      "label": "PhysActivity",
+      "shape": "box",
+      "size": 35,
+      "color": null,
+      "style": "rounded"
+    },
+    {
+      "id": "Fruits",
+      "title": "Fruits",
+      "label": "Fruits",
+      "shape": "box",
+      "size": 35,
+      "color": null,
+      "style": "rounded"
+    },
+    {
+      "id": "HighChol",
+      "title": "HighChol",
+      "label": "HighChol",
+      "shape": "box",
+      "size": 35,
+      "color": null,
+      "style": "rounded"
+    },
+    {
+      "id": "HighBP",
+      "title": "HighBP",
+      "label": "HighBP",
+      "shape": "box",
+      "size": 35,
+      "color": null,
+      "style": "rounded"
+    },
+    {
+      "id": "HvyAlcoholConsump",
+      "title": "HvyAlcoholConsump",
+      "label": "HvyAlcoholConsump",
+      "shape": "box",
+      "size": 35,
+      "color": null,
+      "style": "rounded"
+    },
+    {
+      "id": "BMI",
+      "title": "BMI",
+      "label": "BMI",
+      "shape": "box",
+      "size": 35,
+      "color": null,
+      "style": "rounded"
+    },
+    {
+      "id": "MentHlth",
+      "title": "MentHlth",
+      "label": "MentHlth",
+      "shape": "box",
+      "size": 35,
+      "color": null,
+      "style": "rounded"
+    },
+    {
+      "id": "Veggies",
+      "title": "Veggies",
+      "label": "Veggies",
+      "shape": "box",
+      "size": 35,
+      "color": null,
+      "style": "rounded"
+    },
+    {
+      "id": "Sex",
+      "title": "Sex",
+      "label": "Sex",
+      "shape": "box",
+      "size": 35,
+      "color": null,
+      "style": "rounded"
+    },
+    {
+      "id": "CholCheck",
+      "title": "CholCheck",
+      "label": "CholCheck",
+      "shape": "box",
+      "size": 35,
+      "color": null,
+      "style": "rounded"
+    }
+  ],
+  "edges": [
+    {
+      "source": "PhysHlth",
+      "from": "PhysHlth",
+      "to": "DiffWalk",
+      "color": "#F7A7A6",
+      "style": "solid",
+      "width": 2
+    },
+    {
+      "source": "PhysHlth",
+      "from": "PhysHlth",
+      "to": "GenHlth",
+      "color": "#F7A7A6",
+      "style": "solid",
+      "width": 2
+    },
+    {
+      "source": "AnyHealthcare",
+      "from": "AnyHealthcare",
+      "to": "NoDocbcCost",
+      "color": "#F7A7A6",
+      "style": "solid",
+      "width": 2
+    },
+    {
+      "source": "AnyHealthcare",
+      "from": "AnyHealthcare",
+      "to": "Age",
+      "color": "#F7A7A6",
+      "style": "solid",
+      "width": 2
+    },
+    {
+      "source": "AnyHealthcare",
+      "from": "AnyHealthcare",
+      "to": "Income",
+      "color": "#F7A7A6",
+      "style": "solid",
+      "width": 2
+    },
+    {
+      "source": "NoDocbcCost",
+      "from": "NoDocbcCost",
+      "to": "Age",
+      "color": "#F7A7A6",
+      "style": "solid",
+      "width": 2
+    },
+    {
+      "source": "NoDocbcCost",
+      "from": "NoDocbcCost",
+      "to": "Income",
+      "color": "#F7A7A6",
+      "style": "solid",
+      "width": 2
+    },
+    {
+      "source": "GenHlth",
+      "from": "GenHlth",
+      "to": "Diabetes_binary",
+      "color": "#F7A7A6",
+      "style": "solid",
+      "width": 2
+    },
+    {
+      "source": "GenHlth",
+      "from": "GenHlth",
+      "to": "Income",
+      "color": "#F7A7A6",
+      "style": "solid",
+      "width": 2
+    },
+    {
+      "source": "GenHlth",
+      "from": "GenHlth",
+      "to": "DiffWalk",
+      "color": "#F7A7A6",
+      "style": "solid",
+      "width": 2
+    },
+    {
+      "source": "Diabetes_binary",
+      "from": "Diabetes_binary",
+      "to": "HighBP",
+      "color": "#F7A7A6",
+      "style": "solid",
+      "width": 2
+    },
+    {
+      "source": "Diabetes_binary",
+      "from": "Diabetes_binary",
+      "to": "BMI",
+      "color": "#F7A7A6",
+      "style": "solid",
+      "width": 2
+    },
+    {
+      "source": "Stroke",
+      "from": "Stroke",
+      "to": "HeartDiseaseorAttack",
+      "color": "#F7A7A6",
+      "style": "solid",
+      "width": 2
+    },
+    {
+      "source": "Education",
+      "from": "Education",
+      "to": "Smoker",
+      "color": "#F7A7A6",
+      "style": "solid",
+      "width": 2
+    },
+    {
+      "source": "Education",
+      "from": "Education",
+      "to": "Income",
+      "color": "#F7A7A6",
+      "style": "solid",
+      "width": 2
+    },
+    {
+      "source": "PhysActivity",
+      "from": "PhysActivity",
+      "to": "Fruits",
+      "color": "#F7A7A6",
+      "style": "solid",
+      "width": 2
+    },
+    {
+      "source": "HighChol",
+      "from": "HighChol",
+      "to": "HighBP",
+      "color": "#F7A7A6",
+      "style": "solid",
+      "width": 2
+    },
+    {
+      "source": "HighChol",
+      "from": "HighChol",
+      "to": "HeartDiseaseorAttack",
+      "color": "#F7A7A6",
+      "style": "solid",
+      "width": 2
+    },
+    {
+      "source": "HighChol",
+      "from": "HighChol",
+      "to": "Age",
+      "color": "#F7A7A6",
+      "style": "solid",
+      "width": 2
+    },
+    {
+      "source": "HighBP",
+      "from": "HighBP",
+      "to": "BMI",
+      "color": "#F7A7A6",
+      "style": "solid",
+      "width": 2
+    },
+    {
+      "source": "HvyAlcoholConsump",
+      "from": "HvyAlcoholConsump",
+      "to": "Smoker",
+      "color": "#F7A7A6",
+      "style": "solid",
+      "width": 2
+    },
+    {
+      "source": "MentHlth",
+      "from": "MentHlth",
+      "to": "Income",
+      "color": "#F7A7A6",
+      "style": "solid",
+      "width": 2
+    },
+    {
+      "source": "MentHlth",
+      "from": "MentHlth",
+      "to": "PhysHlth",
+      "color": "#F7A7A6",
+      "style": "solid",
+      "width": 2
+    },
+    {
+      "source": "Veggies",
+      "from": "Veggies",
+      "to": "Fruits",
+      "color": "#F7A7A6",
+      "style": "solid",
+      "width": 2
+    },
+    {
+      "source": "Veggies",
+      "from": "Veggies",
+      "to": "PhysActivity",
+      "color": "#F7A7A6",
+      "style": "solid",
+      "width": 2
+    }
+  ]
+}
