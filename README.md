@@ -105,7 +105,9 @@ The report contains a comprehensive breakdown of the:
 This application was developed as part of the term project for:
 
 > CSE655: Probabilistic Reasoning – Spring 2025
+
 > Institute of Business Administration (IBA), Karachi
+
 > Instructor: Dr. Sajjad Haider
 
 **Team Members:**
