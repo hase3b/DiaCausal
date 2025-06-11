@@ -64,21 +64,21 @@ Due to resource constraints on the free tier of Streamlit Cloud (especially with
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/your-repo-name.git
-   cd your-repo-name
+   git clone https://github.com/hase3b/DiaCausal.git
+   cd DiaCausal
    ```
 
 2. Install dependencies:
 
-  ```bash
-  pip install -r requirements.txt
-  ```
+   ```bash
+   pip install -r requirements.txt
+   ```
 
 3. Run the Streamlit app:
   
-  ```bash
-  streamlit run 01_About.py
-  ```
+   ```bash
+   streamlit run 01_About.py
+   ```
 
 ---
 
