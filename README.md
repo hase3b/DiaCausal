@@ -98,6 +98,8 @@ The report contains a comprehensive breakdown of the:
 * Discussion of findings
 * App interface description
 
+📄 The report (`report/Report.pdf`) is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Please cite appropriately when using.
+
 ---
 
 ## 🤝 Authors and Acknowledgments
